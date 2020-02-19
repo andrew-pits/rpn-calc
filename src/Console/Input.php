@@ -8,6 +8,9 @@ use AndrewPits\Calc\InputInterface;
 
 class Input implements InputInterface
 {
+    /**
+     * @inheritDoc
+     */
     public function read(): string
     {
         $input = readline('> ');
