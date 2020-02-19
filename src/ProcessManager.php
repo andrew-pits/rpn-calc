@@ -37,7 +37,7 @@ class ProcessManager
     /**
      * @return void
      */
-    public function start(): void
+    public function run(): void
     {
         while (true) {
             $value = $this->input->read();
