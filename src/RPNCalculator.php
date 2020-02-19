@@ -30,7 +30,6 @@ class RPNCalculator implements CalculatorInterface
     public function __construct(OperationCollection $operationCollection)
     {
         $this->stack = new SplStack();
-        $this->stack->push(0);
         $this->operationCollection = $operationCollection;
     }
 
