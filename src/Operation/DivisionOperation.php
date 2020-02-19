@@ -16,6 +16,7 @@ class DivisionOperation extends Operation
         if ($secondOperand == 0) {
             throw new DivisionByZeroError('Can not divide by zero');
         }
+
         return $firstOperand / $secondOperand;
     }
 
